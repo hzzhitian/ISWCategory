@@ -1,9 +1,9 @@
 
 Pod:: Spec.new do |s|
 s.name         = "ISWCategory"
-s.version      = "0.0.1"
-s.summary      = "ISWCategory 常用分类"
-s.description  = "ISWCategory 一个常用的分类"
+s.version      = "0.0.2"
+s.summary      = "ISWCategory 经常用到的分类"
+s.description  = "ISWCategory 工程用会经常用到的分类"
 
 s.homepage     = "https://github.com/hzzhitian/ISWCategory.git"
 s.license      = "MIT"
@@ -11,8 +11,7 @@ s.author             = { "bodimall" => "bodimall@163.com" }
 
 s.platform     = :ios,"9.0"
 s.source       = { :git => "https://github.com/hzzhitian/ISWCategory.git", :tag => "#{s.version}" }
-s.source_files  = "ISWCategory", "ISWCategory/**/*.{h,m}"
-s.exclude_files = "ISWCategory/Exclude"
+s.source_files  = "ISWCategory/Source/*.{h,m}"
 s.frameworks = "UIKit", "Foundation","CoreFoundation"
 s.requires_arc = true
 
