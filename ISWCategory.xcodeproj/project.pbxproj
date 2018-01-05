@@ -13,20 +13,21 @@
 		930ABB471FFDFAFF007956DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930ABB461FFDFAFF007956DF /* Assets.xcassets */; };
 		930ABB4A1FFDFAFF007956DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930ABB481FFDFAFF007956DF /* LaunchScreen.storyboard */; };
 		930ABB4D1FFDFAFF007956DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 930ABB4C1FFDFAFF007956DF /* main.m */; };
-		93343B2E1FFF129600916214 /* NSDate+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B071FFF129600916214 /* NSDate+ISWAdd.m */; };
-		93343B2F1FFF129600916214 /* NSDateFormatter+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B091FFF129600916214 /* NSDateFormatter+ISWAdd.m */; };
-		93343B311FFF129600916214 /* NSMutableString+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B0D1FFF129600916214 /* NSMutableString+ISWAdd.m */; };
-		93343B321FFF129600916214 /* NSString+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B0F1FFF129600916214 /* NSString+ISWAdd.m */; };
-		93343B341FFF129600916214 /* PHAsset+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B131FFF129600916214 /* PHAsset+ISWAdd.m */; };
-		93343B361FFF129600916214 /* UIApplication+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B171FFF129600916214 /* UIApplication+ISWAdd.m */; };
-		93343B371FFF129600916214 /* UIButton+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B191FFF129600916214 /* UIButton+ISWAdd.m */; };
-		93343B391FFF129600916214 /* UIFont+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B1D1FFF129600916214 /* UIFont+ISWAdd.m */; };
-		93343B3A1FFF129600916214 /* UIImage+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B1F1FFF129600916214 /* UIImage+ISWAdd.m */; };
-		93343B3B1FFF129600916214 /* UIImageView+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B211FFF129600916214 /* UIImageView+ISWAdd.m */; };
-		93343B3C1FFF129600916214 /* UILabel+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B231FFF129600916214 /* UILabel+ISWAdd.m */; };
-		93343B3F1FFF129600916214 /* UITextField+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B291FFF129600916214 /* UITextField+ISWAdd.m */; };
-		93343B401FFF129600916214 /* UIView+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B2B1FFF129600916214 /* UIView+ISWAdd.m */; };
-		93343B411FFF129600916214 /* UIViewController+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B2D1FFF129600916214 /* UIViewController+ISWAdd.m */; };
+		93343BB41FFF591600916214 /* NSDate+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B951FFF591600916214 /* NSDate+ISWAdd.m */; };
+		93343BB51FFF591600916214 /* NSDateFormatter+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B971FFF591600916214 /* NSDateFormatter+ISWAdd.m */; };
+		93343BB61FFF591600916214 /* NSMutableDictionary+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B991FFF591600916214 /* NSMutableDictionary+NullSafe.m */; };
+		93343BB71FFF591600916214 /* NSMutableString+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B9B1FFF591600916214 /* NSMutableString+ISWAdd.m */; };
+		93343BB81FFF591600916214 /* NSString+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343B9D1FFF591600916214 /* NSString+ISWAdd.m */; };
+		93343BBA1FFF591600916214 /* PHAsset+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BA11FFF591600916214 /* PHAsset+ISWAdd.m */; };
+		93343BBB1FFF591600916214 /* UIApplication+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BA31FFF591600916214 /* UIApplication+ISWAdd.m */; };
+		93343BBC1FFF591600916214 /* UIButton+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BA51FFF591600916214 /* UIButton+ISWAdd.m */; };
+		93343BBD1FFF591600916214 /* UIDevice+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BA71FFF591600916214 /* UIDevice+ISWAdd.m */; };
+		93343BBE1FFF591600916214 /* UIFont+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BA91FFF591600916214 /* UIFont+ISWAdd.m */; };
+		93343BBF1FFF591600916214 /* UIImage+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BAB1FFF591600916214 /* UIImage+ISWAdd.m */; };
+		93343BC01FFF591600916214 /* UILabel+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BAD1FFF591600916214 /* UILabel+ISWAdd.m */; };
+		93343BC11FFF591600916214 /* UITextField+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BAF1FFF591600916214 /* UITextField+ISWAdd.m */; };
+		93343BC21FFF591600916214 /* UIView+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BB11FFF591600916214 /* UIView+ISWAdd.m */; };
+		93343BC31FFF591600916214 /* UIViewController+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BB31FFF591600916214 /* UIViewController+ISWAdd.m */; };
 		D94374E2F30CF8D4EB269F78 /* libPods-ISWCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C71EB23E141A311ECF59453 /* libPods-ISWCategory.a */; };
 /* End PBXBuildFile section */
 
@@ -42,34 +43,36 @@
 		930ABB491FFDFAFF007956DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930ABB4B1FFDFAFF007956DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930ABB4C1FFDFAFF007956DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93343B061FFF129600916214 /* NSDate+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B071FFF129600916214 /* NSDate+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B081FFF129600916214 /* NSDateFormatter+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B091FFF129600916214 /* NSDateFormatter+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B0C1FFF129600916214 /* NSMutableString+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B0D1FFF129600916214 /* NSMutableString+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B0E1FFF129600916214 /* NSString+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B0F1FFF129600916214 /* NSString+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B121FFF129600916214 /* PHAsset+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B131FFF129600916214 /* PHAsset+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B161FFF129600916214 /* UIApplication+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B171FFF129600916214 /* UIApplication+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B181FFF129600916214 /* UIButton+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B191FFF129600916214 /* UIButton+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B1C1FFF129600916214 /* UIFont+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B1D1FFF129600916214 /* UIFont+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B1E1FFF129600916214 /* UIImage+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B1F1FFF129600916214 /* UIImage+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B201FFF129600916214 /* UIImageView+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B211FFF129600916214 /* UIImageView+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B221FFF129600916214 /* UILabel+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B231FFF129600916214 /* UILabel+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B281FFF129600916214 /* UITextField+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B291FFF129600916214 /* UITextField+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B2A1FFF129600916214 /* UIView+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B2B1FFF129600916214 /* UIView+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ISWAdd.m"; sourceTree = "<group>"; };
-		93343B2C1FFF129600916214 /* UIViewController+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ISWAdd.h"; sourceTree = "<group>"; };
-		93343B2D1FFF129600916214 /* UIViewController+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ISWAdd.m"; sourceTree = "<group>"; };
+		93343B941FFF591600916214 /* NSDate+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ISWAdd.h"; sourceTree = "<group>"; };
+		93343B951FFF591600916214 /* NSDate+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ISWAdd.m"; sourceTree = "<group>"; };
+		93343B961FFF591600916214 /* NSDateFormatter+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+ISWAdd.h"; sourceTree = "<group>"; };
+		93343B971FFF591600916214 /* NSDateFormatter+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+ISWAdd.m"; sourceTree = "<group>"; };
+		93343B981FFF591600916214 /* NSMutableDictionary+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+NullSafe.h"; sourceTree = "<group>"; };
+		93343B991FFF591600916214 /* NSMutableDictionary+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+NullSafe.m"; sourceTree = "<group>"; };
+		93343B9A1FFF591600916214 /* NSMutableString+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+ISWAdd.h"; sourceTree = "<group>"; };
+		93343B9B1FFF591600916214 /* NSMutableString+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+ISWAdd.m"; sourceTree = "<group>"; };
+		93343B9C1FFF591600916214 /* NSString+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ISWAdd.h"; sourceTree = "<group>"; };
+		93343B9D1FFF591600916214 /* NSString+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BA01FFF591600916214 /* PHAsset+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BA11FFF591600916214 /* PHAsset+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BA21FFF591600916214 /* UIApplication+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BA31FFF591600916214 /* UIApplication+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BA41FFF591600916214 /* UIButton+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BA51FFF591600916214 /* UIButton+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BA61FFF591600916214 /* UIDevice+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BA71FFF591600916214 /* UIDevice+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BA81FFF591600916214 /* UIFont+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BA91FFF591600916214 /* UIFont+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BAA1FFF591600916214 /* UIImage+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BAB1FFF591600916214 /* UIImage+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BAC1FFF591600916214 /* UILabel+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BAD1FFF591600916214 /* UILabel+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BAE1FFF591600916214 /* UITextField+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BAF1FFF591600916214 /* UITextField+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BB01FFF591600916214 /* UIView+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BB11FFF591600916214 /* UIView+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ISWAdd.m"; sourceTree = "<group>"; };
+		93343BB21FFF591600916214 /* UIViewController+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ISWAdd.h"; sourceTree = "<group>"; };
+		93343BB31FFF591600916214 /* UIViewController+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ISWAdd.m"; sourceTree = "<group>"; };
 		9C71EB23E141A311ECF59453 /* libPods-ISWCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISWCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CADD4B6A131DE8DC4B2D6A /* Pods-ISWCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISWCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISWCategory/Pods-ISWCategory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +118,7 @@
 		930ABB3C1FFDFAFF007956DF /* ISWCategory */ = {
 			isa = PBXGroup;
 			children = (
-				93343B051FFF129600916214 /* Source */,
+				93343B931FFF591600916214 /* Source */,
 				930ABB3D1FFDFAFF007956DF /* AppDelegate.h */,
 				930ABB3E1FFDFAFF007956DF /* AppDelegate.m */,
 				930ABB401FFDFAFF007956DF /* ViewController.h */,
@@ -129,39 +132,42 @@
 			path = ISWCategory;
 			sourceTree = "<group>";
 		};
-		93343B051FFF129600916214 /* Source */ = {
+		93343B931FFF591600916214 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				93343B061FFF129600916214 /* NSDate+ISWAdd.h */,
-				93343B071FFF129600916214 /* NSDate+ISWAdd.m */,
-				93343B081FFF129600916214 /* NSDateFormatter+ISWAdd.h */,
-				93343B091FFF129600916214 /* NSDateFormatter+ISWAdd.m */,
-				93343B0C1FFF129600916214 /* NSMutableString+ISWAdd.h */,
-				93343B0D1FFF129600916214 /* NSMutableString+ISWAdd.m */,
-				93343B0E1FFF129600916214 /* NSString+ISWAdd.h */,
-				93343B0F1FFF129600916214 /* NSString+ISWAdd.m */,
-				93343B121FFF129600916214 /* PHAsset+ISWAdd.h */,
-				93343B131FFF129600916214 /* PHAsset+ISWAdd.m */,
-				93343B161FFF129600916214 /* UIApplication+ISWAdd.h */,
-				93343B171FFF129600916214 /* UIApplication+ISWAdd.m */,
-				93343B181FFF129600916214 /* UIButton+ISWAdd.h */,
-				93343B191FFF129600916214 /* UIButton+ISWAdd.m */,
-				93343B1C1FFF129600916214 /* UIFont+ISWAdd.h */,
-				93343B1D1FFF129600916214 /* UIFont+ISWAdd.m */,
-				93343B1E1FFF129600916214 /* UIImage+ISWAdd.h */,
-				93343B1F1FFF129600916214 /* UIImage+ISWAdd.m */,
-				93343B201FFF129600916214 /* UIImageView+ISWAdd.h */,
-				93343B211FFF129600916214 /* UIImageView+ISWAdd.m */,
-				93343B221FFF129600916214 /* UILabel+ISWAdd.h */,
-				93343B231FFF129600916214 /* UILabel+ISWAdd.m */,
-				93343B281FFF129600916214 /* UITextField+ISWAdd.h */,
-				93343B291FFF129600916214 /* UITextField+ISWAdd.m */,
-				93343B2A1FFF129600916214 /* UIView+ISWAdd.h */,
-				93343B2B1FFF129600916214 /* UIView+ISWAdd.m */,
-				93343B2C1FFF129600916214 /* UIViewController+ISWAdd.h */,
-				93343B2D1FFF129600916214 /* UIViewController+ISWAdd.m */,
+				93343B941FFF591600916214 /* NSDate+ISWAdd.h */,
+				93343B951FFF591600916214 /* NSDate+ISWAdd.m */,
+				93343B961FFF591600916214 /* NSDateFormatter+ISWAdd.h */,
+				93343B971FFF591600916214 /* NSDateFormatter+ISWAdd.m */,
+				93343B981FFF591600916214 /* NSMutableDictionary+NullSafe.h */,
+				93343B991FFF591600916214 /* NSMutableDictionary+NullSafe.m */,
+				93343B9A1FFF591600916214 /* NSMutableString+ISWAdd.h */,
+				93343B9B1FFF591600916214 /* NSMutableString+ISWAdd.m */,
+				93343B9C1FFF591600916214 /* NSString+ISWAdd.h */,
+				93343B9D1FFF591600916214 /* NSString+ISWAdd.m */,
+				93343BA01FFF591600916214 /* PHAsset+ISWAdd.h */,
+				93343BA11FFF591600916214 /* PHAsset+ISWAdd.m */,
+				93343BA21FFF591600916214 /* UIApplication+ISWAdd.h */,
+				93343BA31FFF591600916214 /* UIApplication+ISWAdd.m */,
+				93343BA41FFF591600916214 /* UIButton+ISWAdd.h */,
+				93343BA51FFF591600916214 /* UIButton+ISWAdd.m */,
+				93343BA61FFF591600916214 /* UIDevice+ISWAdd.h */,
+				93343BA71FFF591600916214 /* UIDevice+ISWAdd.m */,
+				93343BA81FFF591600916214 /* UIFont+ISWAdd.h */,
+				93343BA91FFF591600916214 /* UIFont+ISWAdd.m */,
+				93343BAA1FFF591600916214 /* UIImage+ISWAdd.h */,
+				93343BAB1FFF591600916214 /* UIImage+ISWAdd.m */,
+				93343BAC1FFF591600916214 /* UILabel+ISWAdd.h */,
+				93343BAD1FFF591600916214 /* UILabel+ISWAdd.m */,
+				93343BAE1FFF591600916214 /* UITextField+ISWAdd.h */,
+				93343BAF1FFF591600916214 /* UITextField+ISWAdd.m */,
+				93343BB01FFF591600916214 /* UIView+ISWAdd.h */,
+				93343BB11FFF591600916214 /* UIView+ISWAdd.m */,
+				93343BB21FFF591600916214 /* UIViewController+ISWAdd.h */,
+				93343BB31FFF591600916214 /* UIViewController+ISWAdd.m */,
 			);
-			path = Source;
+			name = Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 		C3920888F7FCA013C22AC57B /* Pods */ = {
@@ -298,22 +304,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93343B2E1FFF129600916214 /* NSDate+ISWAdd.m in Sources */,
-				93343B311FFF129600916214 /* NSMutableString+ISWAdd.m in Sources */,
-				93343B3C1FFF129600916214 /* UILabel+ISWAdd.m in Sources */,
-				93343B3A1FFF129600916214 /* UIImage+ISWAdd.m in Sources */,
-				93343B3F1FFF129600916214 /* UITextField+ISWAdd.m in Sources */,
-				93343B321FFF129600916214 /* NSString+ISWAdd.m in Sources */,
-				93343B3B1FFF129600916214 /* UIImageView+ISWAdd.m in Sources */,
-				93343B2F1FFF129600916214 /* NSDateFormatter+ISWAdd.m in Sources */,
-				93343B341FFF129600916214 /* PHAsset+ISWAdd.m in Sources */,
-				93343B411FFF129600916214 /* UIViewController+ISWAdd.m in Sources */,
-				93343B371FFF129600916214 /* UIButton+ISWAdd.m in Sources */,
-				93343B391FFF129600916214 /* UIFont+ISWAdd.m in Sources */,
+				93343BC01FFF591600916214 /* UILabel+ISWAdd.m in Sources */,
+				93343BB41FFF591600916214 /* NSDate+ISWAdd.m in Sources */,
+				93343BB71FFF591600916214 /* NSMutableString+ISWAdd.m in Sources */,
+				93343BB61FFF591600916214 /* NSMutableDictionary+NullSafe.m in Sources */,
+				93343BB81FFF591600916214 /* NSString+ISWAdd.m in Sources */,
+				93343BBE1FFF591600916214 /* UIFont+ISWAdd.m in Sources */,
+				93343BC21FFF591600916214 /* UIView+ISWAdd.m in Sources */,
+				93343BC31FFF591600916214 /* UIViewController+ISWAdd.m in Sources */,
+				93343BC11FFF591600916214 /* UITextField+ISWAdd.m in Sources */,
+				93343BBF1FFF591600916214 /* UIImage+ISWAdd.m in Sources */,
+				93343BBC1FFF591600916214 /* UIButton+ISWAdd.m in Sources */,
+				93343BB51FFF591600916214 /* NSDateFormatter+ISWAdd.m in Sources */,
+				93343BBD1FFF591600916214 /* UIDevice+ISWAdd.m in Sources */,
+				93343BBA1FFF591600916214 /* PHAsset+ISWAdd.m in Sources */,
 				930ABB421FFDFAFF007956DF /* ViewController.m in Sources */,
 				930ABB4D1FFDFAFF007956DF /* main.m in Sources */,
-				93343B401FFF129600916214 /* UIView+ISWAdd.m in Sources */,
-				93343B361FFF129600916214 /* UIApplication+ISWAdd.m in Sources */,
+				93343BBB1FFF591600916214 /* UIApplication+ISWAdd.m in Sources */,
 				930ABB3F1FFDFAFF007956DF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

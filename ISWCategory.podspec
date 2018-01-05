@@ -1,8 +1,9 @@
+
 Pod:: Spec.new do |s|
 s.name         = "ISWCategory"
 s.version      = "0.0.1"
-s.summary      = "ISWCategory 常用分类"
-s.description  = "ISWCategory 包含工程中常用的分类扩展方法"
+s.summary      = "ISWCategory 一个方便的内容输入框"
+s.description  = "ISWCategory 一个方便的内容输入框，简单易用"
 
 s.homepage     = "https://github.com/hzzhitian/ISWCategory.git"
 s.license      = "MIT"
