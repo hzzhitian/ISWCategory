@@ -165,38 +165,66 @@ NSString* kWPAttributedMarkupLinkName = @"WPAttributedMarkupLinkName";
                      
                      @"pureRed": @[[UIColor redColor]],
                      @"retailPrice": @[
-                             [UIColor                                                    \
-                              colorWithRed:((float)((0xb2b2b2 & 0xFF0000) >> 16))/255.0   \
-                              green:((float)((0xb2b2b2 & 0xFF00) >> 8))/255.0             \
-                              blue:((float)(0xb2b2b2 & 0xFF))/255.0                       \
+                             [UIColor
+                              colorWithRed:((float)((0xb2b2b2 & 0xFF0000) >> 16))/255.0
+                              green:((float)((0xb2b2b2 & 0xFF00) >> 8))/255.0
+                              blue:((float)(0xb2b2b2 & 0xFF))/255.0
                               alpha:1.0],
                              [UIFont systemFontOfSize:10.0],
                              @{NSStrikethroughStyleAttributeName : @(kCTUnderlineStyleSingle|kCTUnderlinePatternSolid)}
                              ],
                      
                      @"body": @[[UIFont systemFontOfSize:12.0],
-                                kColorDark
+                                [UIColor
+                                 colorWithRed:((float)((0x4d4d4d & 0xFF0000) >> 16))/255.0
+                                 green:((float)((0x4d4d4d & 0xFF00) >> 8))/255.0
+                                 blue:((float)(0x4d4d4d & 0xFF))/255.0
+                                 alpha:1.0]
                                 ],
                      
-                     @"orangePrice": @[kColorMajorNormal,
+                     @"orangePrice": @[[UIColor
+                                        colorWithRed:((float)((0xF64040 & 0xFF0000) >> 16))/255.0
+                                        green:((float)((0xF64040 & 0xFF00) >> 8))/255.0
+                                        blue:((float)(0xF64040 & 0xFF))/255.0
+                                        alpha:1.0],
                                        [UIFont systemFontOfSize:15.0]
                                        ],
                      
-                     @"sum": @[kColorMajorNormal,
+                     @"sum": @[[UIColor
+                                colorWithRed:((float)((0xF64040 & 0xFF0000) >> 16))/255.0
+                                green:((float)((0xF64040 & 0xFF00) >> 8))/255.0
+                                blue:((float)(0xF64040 & 0xFF))/255.0
+                                alpha:1.0],
                                [UIFont systemFontOfSize:15.0]
                                ],
                      
-                     @"price": @[kColorDark,
+                     @"price": @[[UIColor
+                                  colorWithRed:((float)((0x4d4d4d & 0xFF0000) >> 16))/255.0
+                                  green:((float)((0x4d4d4d & 0xFF00) >> 8))/255.0
+                                  blue:((float)(0x4d4d4d & 0xFF))/255.0
+                                  alpha:1.0],
                                  [UIFont systemFontOfSize:15.0]
                                  ],
 
-                     @"bPrice": @[kColorMajorNormal,
+                     @"bPrice": @[[UIColor
+                                   colorWithRed:((float)((0xF64040 & 0xFF0000) >> 16))/255.0
+                                   green:((float)((0xF64040 & 0xFF00) >> 8))/255.0
+                                   blue:((float)(0xF64040 & 0xFF))/255.0
+                                   alpha:1.0],
                                   [UIFont systemFontOfSize:24.0]
                                   ],
-                     @"FeedbackBody": @[kColorLightDark,
+                     @"FeedbackBody": @[[UIColor
+                                         colorWithRed:((float)((0x666666 & 0xFF0000) >> 16))/255.0
+                                         green:((float)((0x666666 & 0xFF00) >> 8))/255.0
+                                         blue:((float)(0x666666 & 0xFF))/255.0
+                                         alpha:1.0],
                                         [UIFont isw_Pingfang:13.0]
                                   ],
-                     @"FeedbackTitle": @[kColorMajorNormal,
+                     @"FeedbackTitle": @[[UIColor
+                                          colorWithRed:((float)((0xF64040 & 0xFF0000) >> 16))/255.0
+                                          green:((float)((0xF64040 & 0xFF00) >> 8))/255.0
+                                          blue:((float)(0xF64040 & 0xFF))/255.0                       
+                                          alpha:1.0],
                                          [UIFont isw_Pingfang:13.0]
                                         ]
                      };

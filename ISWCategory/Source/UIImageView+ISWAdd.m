@@ -17,11 +17,5 @@
     [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:[UIImage isw_placeholderImageWithSize:size]];
 }
 
-- (void)isw_sd_setImageWithUrlStirng: (NSString*)url  placeHolderWithPerferredSize : (CGSize) size
-{
-    url = nil;
-    [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:[UIImage isw_placeholderImageWithSize:size]];
-    
-}
 
 @end

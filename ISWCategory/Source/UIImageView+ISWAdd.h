@@ -12,8 +12,6 @@
 
 - (void)isw_sd_setImageWithUrlStirng: (NSString*)url  placeHolderWithImageViewSize : (CGSize) size;
 
-- (void)isw_sd_setImageWithUrlStirng: (NSString*)url  placeHolderWithPerferredSize : (CGSize) size;
-
 @end
 
 

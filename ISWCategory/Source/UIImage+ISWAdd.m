@@ -287,11 +287,10 @@
 + (UIImage *)isw_placeholderImageWithSize:(CGSize)size {
     
     // 占位图的背景色
-    UIColor *backgroundColor = [UIColor                                                    \
-                                colorWithRed:((float)((0xf4f4f4 & 0xFF0000) >> 16))/255.0   \
-                                green:((float)((0xf4f4f4 & 0xFF00) >> 8))/255.0             \
-                                blue:((float)(0xf4f4f4 & 0xFF))/255.0                       \
-                                alpha:1.0];
+    UIColor *backgroundColor = [UIColor colorWithRed:((float)((0xf4f4f4 & 0xFF0000) >> 16))/255.0
+     green:((float)((0xf4f4f4 & 0xFF00) >> 8))/255.0
+     blue:((float)(0xf4f4f4 & 0xFF))/255.0
+     alpha:1.0];
     // 中间LOGO图片
     UIImage *image = [UIImage imageNamed:@"placeholder_gray_square"];
     // 原uiimage 宽高比
