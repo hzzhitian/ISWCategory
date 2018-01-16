@@ -10,6 +10,7 @@
 		81684FD2200D9C7700C9A2C8 /* UITableView+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 81684FD1200D9C7700C9A2C8 /* UITableView+ISWAdd.m */; };
 		81684FD5200D9CC200C9A2C8 /* UIScreen+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 81684FD4200D9CC200C9A2C8 /* UIScreen+ISWAdd.m */; };
 		81684FD8200D9D2000C9A2C8 /* UITableViewCell+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 81684FD7200D9D2000C9A2C8 /* UITableViewCell+ISWAdd.m */; };
+		81684FDD200DA1D600C9A2C8 /* ISWCategory.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 81684FDC200DA1D500C9A2C8 /* ISWCategory.podspec */; };
 		930ABB3F1FFDFAFF007956DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 930ABB3E1FFDFAFF007956DF /* AppDelegate.m */; };
 		930ABB421FFDFAFF007956DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930ABB411FFDFAFF007956DF /* ViewController.m */; };
 		930ABB451FFDFAFF007956DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930ABB431FFDFAFF007956DF /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		81684FD6200D9D2000C9A2C8 /* UITableViewCell+ISWAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ISWAdd.h"; sourceTree = "<group>"; };
 		81684FD7200D9D2000C9A2C8 /* UITableViewCell+ISWAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ISWAdd.m"; sourceTree = "<group>"; };
 		81684FDA200D9DC600C9A2C8 /* ISWCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISWCategory.h; sourceTree = "<group>"; };
+		81684FDC200DA1D500C9A2C8 /* ISWCategory.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ISWCategory.podspec; sourceTree = SOURCE_ROOT; };
 		930ABB3A1FFDFAFF007956DF /* ISWCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISWCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930ABB3D1FFDFAFF007956DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		930ABB3E1FFDFAFF007956DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		930ABB3C1FFDFAFF007956DF /* ISWCategory */ = {
 			isa = PBXGroup;
 			children = (
+				81684FDC200DA1D500C9A2C8 /* ISWCategory.podspec */,
 				93343BE41FFF798E00916214 /* Source */,
 				930ABB3D1FFDFAFF007956DF /* AppDelegate.h */,
 				930ABB3E1FFDFAFF007956DF /* AppDelegate.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81684FDD200DA1D600C9A2C8 /* ISWCategory.podspec in Resources */,
 				930ABB4A1FFDFAFF007956DF /* LaunchScreen.storyboard in Resources */,
 				930ABB471FFDFAFF007956DF /* Assets.xcassets in Resources */,
 				930ABB451FFDFAFF007956DF /* Main.storyboard in Resources */,

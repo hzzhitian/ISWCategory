@@ -1,7 +1,7 @@
 
 Pod:: Spec.new do |s|
 s.name         = "ISWCategory"
-s.version      = "0.0.2"
+s.version      = "0.0.3"
 s.summary      = "ISWCategory 经常用到的分类"
 s.description  = "ISWCategory 工程用会经常用到的分类"
 
