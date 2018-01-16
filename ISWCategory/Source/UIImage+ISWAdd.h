@@ -32,5 +32,7 @@
 
 + (UIImage *)isw_animatedImageWithAnimatedGIFURL:(NSURL *)theURL;
 
+- (UIImage *)isw_imageByResizeToSize:(CGSize)size fillColor:(UIColor*)fillcolor;
+
 @end
 

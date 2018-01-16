@@ -10,19 +10,6 @@
 
 @implementation UIFont (ISWAdd)
 
-//PingFangSC-Light 细体
-//PingFangSC-Medium 中黑体
-//PingFangSC-Semibold 中粗体
-//PingFangSC-Thin 纤细
-//PingFangSC-Ultralight 及细体
-
-- (CGFontRef)isw_FontRef
-{
-    CFStringRef fontName = (__bridge CFStringRef)self.fontName;
-
-    return CGFontCreateWithFontName(fontName);
-}
-
 + (UIFont*)isw_Pingfang:(CGFloat)size
 {
     return [UIFont isw_Pingfang:size weight:UIFontWeightRegular];

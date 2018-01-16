@@ -13,6 +13,4 @@
 + (UIFont*)isw_Pingfang:(CGFloat)size;
 + (UIFont*)isw_Pingfang:(CGFloat)size weight:(CGFloat)weigth;
 
-- (CGFontRef)isw_FontRef;
-
 @end
