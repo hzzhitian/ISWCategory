@@ -11,6 +11,9 @@
 		81684FD5200D9CC200C9A2C8 /* UIScreen+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 81684FD4200D9CC200C9A2C8 /* UIScreen+ISWAdd.m */; };
 		81684FD8200D9D2000C9A2C8 /* UITableViewCell+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 81684FD7200D9D2000C9A2C8 /* UITableViewCell+ISWAdd.m */; };
 		81684FDD200DA1D600C9A2C8 /* ISWCategory.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 81684FDC200DA1D500C9A2C8 /* ISWCategory.podspec */; };
+		817D36292010849D007DEC69 /* ISWToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D36272010849D007DEC69 /* ISWToast.m */; };
+		817D362D20108502007DEC69 /* UITableView+ISWRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D362C20108502007DEC69 /* UITableView+ISWRefresh.m */; };
+		817D362F2010858A007DEC69 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 817D362E2010858A007DEC69 /* podfile */; };
 		930ABB3F1FFDFAFF007956DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 930ABB3E1FFDFAFF007956DF /* AppDelegate.m */; };
 		930ABB421FFDFAFF007956DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930ABB411FFDFAFF007956DF /* ViewController.m */; };
 		930ABB451FFDFAFF007956DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930ABB431FFDFAFF007956DF /* Main.storyboard */; };
@@ -32,9 +35,12 @@
 		93343C0F1FFF798E00916214 /* UITextField+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343BFE1FFF798E00916214 /* UITextField+ISWAdd.m */; };
 		93343C101FFF798E00916214 /* UIView+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343C001FFF798E00916214 /* UIView+ISWAdd.m */; };
 		93343C111FFF798E00916214 /* UIViewController+ISWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93343C021FFF798E00916214 /* UIViewController+ISWAdd.m */; };
+		D1622167EBEDDA730F81A9FF /* libPods-ISWCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4013AAE53B6D7DFD30B6815 /* libPods-ISWCategory.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1138F904A0CE6D5ECBCB1D44 /* Pods-ISWCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISWCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISWCategory/Pods-ISWCategory.release.xcconfig"; sourceTree = "<group>"; };
+		29F80996ABDEE576567D5F15 /* Pods-ISWCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISWCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISWCategory/Pods-ISWCategory.debug.xcconfig"; sourceTree = "<group>"; };
 		81684FD0200D9C7700C9A2C8 /* UITableView+ISWAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+ISWAdd.h"; sourceTree = "<group>"; };
 		81684FD1200D9C7700C9A2C8 /* UITableView+ISWAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ISWAdd.m"; sourceTree = "<group>"; };
 		81684FD3200D9CC200C9A2C8 /* UIScreen+ISWAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+ISWAdd.h"; sourceTree = "<group>"; };
@@ -43,6 +49,11 @@
 		81684FD7200D9D2000C9A2C8 /* UITableViewCell+ISWAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ISWAdd.m"; sourceTree = "<group>"; };
 		81684FDA200D9DC600C9A2C8 /* ISWCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISWCategory.h; sourceTree = "<group>"; };
 		81684FDC200DA1D500C9A2C8 /* ISWCategory.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ISWCategory.podspec; sourceTree = SOURCE_ROOT; };
+		817D36272010849D007DEC69 /* ISWToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWToast.m; sourceTree = "<group>"; };
+		817D36282010849D007DEC69 /* ISWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISWToast.h; sourceTree = "<group>"; };
+		817D362B20108502007DEC69 /* UITableView+ISWRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+ISWRefresh.h"; sourceTree = "<group>"; };
+		817D362C20108502007DEC69 /* UITableView+ISWRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ISWRefresh.m"; sourceTree = "<group>"; };
+		817D362E2010858A007DEC69 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
 		930ABB3A1FFDFAFF007956DF /* ISWCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISWCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930ABB3D1FFDFAFF007956DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		930ABB3E1FFDFAFF007956DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +94,7 @@
 		93343C001FFF798E00916214 /* UIView+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ISWAdd.m"; sourceTree = "<group>"; };
 		93343C011FFF798E00916214 /* UIViewController+ISWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ISWAdd.h"; sourceTree = "<group>"; };
 		93343C021FFF798E00916214 /* UIViewController+ISWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ISWAdd.m"; sourceTree = "<group>"; };
+		D4013AAE53B6D7DFD30B6815 /* libPods-ISWCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISWCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,17 +102,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1622167EBEDDA730F81A9FF /* libPods-ISWCategory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DB0C7EEBFF4EC47E2BD8C8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4013AAE53B6D7DFD30B6815 /* libPods-ISWCategory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		729E79F61CA3F465EFC3DA13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29F80996ABDEE576567D5F15 /* Pods-ISWCategory.debug.xcconfig */,
+				1138F904A0CE6D5ECBCB1D44 /* Pods-ISWCategory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		817D362620108465007DEC69 /* ISWToast */ = {
+			isa = PBXGroup;
+			children = (
+				817D36282010849D007DEC69 /* ISWToast.h */,
+				817D36272010849D007DEC69 /* ISWToast.m */,
+			);
+			path = ISWToast;
+			sourceTree = "<group>";
+		};
+		817D362A201084AB007DEC69 /* ISWTableRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				817D362B20108502007DEC69 /* UITableView+ISWRefresh.h */,
+				817D362C20108502007DEC69 /* UITableView+ISWRefresh.m */,
+			);
+			path = ISWTableRefresh;
+			sourceTree = "<group>";
+		};
 		930ABB311FFDFAFF007956DF = {
 			isa = PBXGroup;
 			children = (
+				817D362E2010858A007DEC69 /* podfile */,
 				930ABB3C1FFDFAFF007956DF /* ISWCategory */,
 				930ABB3B1FFDFAFF007956DF /* Products */,
+				729E79F61CA3F465EFC3DA13 /* Pods */,
+				3DB0C7EEBFF4EC47E2BD8C8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +184,8 @@
 		93343BE41FFF798E00916214 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				817D362A201084AB007DEC69 /* ISWTableRefresh */,
+				817D362620108465007DEC69 /* ISWToast */,
 				93343BE51FFF798E00916214 /* NSDate+ISWAdd.h */,
 				93343BE61FFF798E00916214 /* NSDate+ISWAdd.m */,
 				93343BE71FFF798E00916214 /* NSDateFormatter+ISWAdd.h */,
@@ -181,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 930ABB501FFDFAFF007956DF /* Build configuration list for PBXNativeTarget "ISWCategory" */;
 			buildPhases = (
+				72D86B16E8065ED08D7657C6 /* [CP] Check Pods Manifest.lock */,
 				930ABB361FFDFAFF007956DF /* Sources */,
 				930ABB371FFDFAFF007956DF /* Frameworks */,
 				930ABB381FFDFAFF007956DF /* Resources */,
+				727590CE935CF571FA0F6A94 /* [CP] Embed Pods Frameworks */,
+				39255382284809FEC3361E0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +290,7 @@
 			files = (
 				81684FDD200DA1D600C9A2C8 /* ISWCategory.podspec in Resources */,
 				930ABB4A1FFDFAFF007956DF /* LaunchScreen.storyboard in Resources */,
+				817D362F2010858A007DEC69 /* podfile in Resources */,
 				930ABB471FFDFAFF007956DF /* Assets.xcassets in Resources */,
 				930ABB451FFDFAFF007956DF /* Main.storyboard in Resources */,
 			);
@@ -241,12 +298,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39255382284809FEC3361E0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ISWCategory/Pods-ISWCategory-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISWCategory/Pods-ISWCategory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		727590CE935CF571FA0F6A94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISWCategory/Pods-ISWCategory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72D86B16E8065ED08D7657C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISWCategory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		930ABB361FFDFAFF007956DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				93343C031FFF798E00916214 /* NSDate+ISWAdd.m in Sources */,
+				817D362D20108502007DEC69 /* UITableView+ISWRefresh.m in Sources */,
 				81684FD5200D9CC200C9A2C8 /* UIScreen+ISWAdd.m in Sources */,
 				93343C061FFF798E00916214 /* NSMutableString+ISWAdd.m in Sources */,
 				93343C051FFF798E00916214 /* NSMutableDictionary+NullSafe.m in Sources */,
@@ -263,6 +375,7 @@
 				93343C0A1FFF798E00916214 /* UIButton+ISWAdd.m in Sources */,
 				930ABB421FFDFAFF007956DF /* ViewController.m in Sources */,
 				93343C0F1FFF798E00916214 /* UITextField+ISWAdd.m in Sources */,
+				817D36292010849D007DEC69 /* ISWToast.m in Sources */,
 				93343C101FFF798E00916214 /* UIView+ISWAdd.m in Sources */,
 				930ABB4D1FFDFAFF007956DF /* main.m in Sources */,
 				930ABB3F1FFDFAFF007956DF /* AppDelegate.m in Sources */,
@@ -398,6 +511,7 @@
 		};
 		930ABB511FFDFAFF007956DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F80996ABDEE576567D5F15 /* Pods-ISWCategory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -412,6 +526,7 @@
 		};
 		930ABB521FFDFAFF007956DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1138F904A0CE6D5ECBCB1D44 /* Pods-ISWCategory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
