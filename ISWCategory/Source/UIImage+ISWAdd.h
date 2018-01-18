@@ -34,5 +34,7 @@
 
 - (UIImage *)isw_imageByResizeToSize:(CGSize)size fillColor:(UIColor*)fillcolor;
 
++(UIImage*) isw_imageWithQRCode:(NSString*)code width:(CGFloat)width;
+
 @end
 
