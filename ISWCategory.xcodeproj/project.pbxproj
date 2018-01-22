@@ -14,6 +14,7 @@
 		817D36292010849D007DEC69 /* ISWToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D36272010849D007DEC69 /* ISWToast.m */; };
 		817D362D20108502007DEC69 /* UITableView+ISWRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 817D362C20108502007DEC69 /* UITableView+ISWRefresh.m */; };
 		817D362F2010858A007DEC69 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 817D362E2010858A007DEC69 /* podfile */; };
+		81A3D3D72015C8CB00D970FF /* ISWValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A3D3D52015C8CB00D970FF /* ISWValidator.m */; };
 		930ABB3F1FFDFAFF007956DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 930ABB3E1FFDFAFF007956DF /* AppDelegate.m */; };
 		930ABB421FFDFAFF007956DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930ABB411FFDFAFF007956DF /* ViewController.m */; };
 		930ABB451FFDFAFF007956DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930ABB431FFDFAFF007956DF /* Main.storyboard */; };
@@ -54,6 +55,8 @@
 		817D362B20108502007DEC69 /* UITableView+ISWRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+ISWRefresh.h"; sourceTree = "<group>"; };
 		817D362C20108502007DEC69 /* UITableView+ISWRefresh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ISWRefresh.m"; sourceTree = "<group>"; };
 		817D362E2010858A007DEC69 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		81A3D3D52015C8CB00D970FF /* ISWValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISWValidator.m; sourceTree = "<group>"; };
+		81A3D3D62015C8CB00D970FF /* ISWValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISWValidator.h; sourceTree = "<group>"; };
 		930ABB3A1FFDFAFF007956DF /* ISWCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISWCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930ABB3D1FFDFAFF007956DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		930ABB3E1FFDFAFF007956DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -144,6 +147,15 @@
 			path = ISWTableRefresh;
 			sourceTree = "<group>";
 		};
+		81A3D3D42015C87800D970FF /* ISWValidator */ = {
+			isa = PBXGroup;
+			children = (
+				81A3D3D62015C8CB00D970FF /* ISWValidator.h */,
+				81A3D3D52015C8CB00D970FF /* ISWValidator.m */,
+			);
+			path = ISWValidator;
+			sourceTree = "<group>";
+		};
 		930ABB311FFDFAFF007956DF = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +196,7 @@
 		93343BE41FFF798E00916214 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				81A3D3D42015C87800D970FF /* ISWValidator */,
 				817D362A201084AB007DEC69 /* ISWTableRefresh */,
 				817D362620108465007DEC69 /* ISWToast */,
 				93343BE51FFF798E00916214 /* NSDate+ISWAdd.h */,
@@ -359,6 +372,7 @@
 			files = (
 				93343C031FFF798E00916214 /* NSDate+ISWAdd.m in Sources */,
 				817D362D20108502007DEC69 /* UITableView+ISWRefresh.m in Sources */,
+				81A3D3D72015C8CB00D970FF /* ISWValidator.m in Sources */,
 				81684FD5200D9CC200C9A2C8 /* UIScreen+ISWAdd.m in Sources */,
 				93343C061FFF798E00916214 /* NSMutableString+ISWAdd.m in Sources */,
 				93343C051FFF798E00916214 /* NSMutableDictionary+NullSafe.m in Sources */,
