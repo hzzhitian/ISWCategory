@@ -25,10 +25,10 @@
     self.layer.borderColor= [color CGColor];
 }
 
-- (void)roundTopRightCorner:(int)radius {
-    [self roundCorner:UIRectCornerTopRight radius:radius];
+- (void)isw_roundTopRightCorner:(int)radius {
+    [self isw_roundCorner:UIRectCornerTopRight radius:radius];
 }
-- (void)roundCorner:(UIRectCorner)corners radius:(int) radius {
+- (void)isw_roundCorner:(UIRectCorner)corners radius:(int) radius {
     UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:CGSizeMake(radius, radius)];
     CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
     maskLayer.frame = self.bounds;
@@ -36,107 +36,107 @@
     self.layer.mask = maskLayer;
 }
 
-- (void)setX:(CGFloat)x
+- (void)setIsw_x:(CGFloat)x
 {
     CGRect frame = self.frame;
     frame.origin.x = x;
     self.frame = frame;
 }
 
-- (void)setY:(CGFloat)y
+- (void)setIsw_y:(CGFloat)y
 {
     CGRect frame = self.frame;
     frame.origin.y = y;
     self.frame = frame;
 }
 
-- (CGFloat)x
+- (CGFloat)isw_x
 {
     return self.frame.origin.x;
 }
 
-- (CGFloat)y
+- (CGFloat)isw_y
 {
     return self.frame.origin.y;
 }
 
-- (void)setWidth:(CGFloat)width
+- (void)setIsw_width:(CGFloat)width
 {
     CGRect frame = self.frame;
     frame.size.width = width;
     self.frame = frame;
 }
 
-- (void)setHeight:(CGFloat)height
+- (void)setIsw_height:(CGFloat)height
 {
     CGRect frame = self.frame;
     frame.size.height = height;
     self.frame = frame;
 }
 
-- (CGFloat)height
+- (CGFloat)isw_height
 {
     return self.frame.size.height;
 }
 
-- (CGFloat)width
+- (CGFloat)isw_width
 {
     return self.frame.size.width;
 }
 
-- (CGFloat)left {
+- (CGFloat)isw_left {
     return self.frame.origin.x;
 }
 
-- (void)setLeft:(CGFloat)x {
+- (void)setIsw_left:(CGFloat)x {
     CGRect frame = self.frame;
     frame.origin.x = x;
     self.frame = frame;
 }
 
-- (CGFloat)top {
+- (CGFloat)isw_top {
     return self.frame.origin.y;
 }
 
-- (void)setTop:(CGFloat)y {
+- (void)setIsw_top:(CGFloat)y {
     CGRect frame = self.frame;
     frame.origin.y = y;
     self.frame = frame;
 }
 
-- (CGFloat)right {
+- (CGFloat)isw_right {
     return self.frame.origin.x + self.frame.size.width;
 }
 
-- (void)setRight:(CGFloat)right {
+- (void)setIsw_right:(CGFloat)right {
     CGRect frame = self.frame;
     frame.origin.x = right - frame.size.width;
     self.frame = frame;
 }
 
-- (CGFloat)bottom {
+- (CGFloat)isw_bottom {
     return self.frame.origin.y + self.frame.size.height;
 }
 
-- (void)setBottom:(CGFloat)bottom {
+- (void)setIsw_bottom:(CGFloat)bottom {
     CGRect frame = self.frame;
     frame.origin.y = bottom - frame.size.height;
     self.frame = frame;
 }
 
-- (CGFloat)centerX {
+- (CGFloat)isw_centerX {
     return self.center.x;
 }
 
-- (void)setCenterX:(CGFloat)centerX {
+- (void)setIsw_centerX:(CGFloat)centerX {
     self.center = CGPointMake(centerX, self.center.y);
 }
 
-- (CGFloat)centerY {
+- (CGFloat)isw_centerY {
     return self.center.y;
 }
 
-- (void)setCenterY:(CGFloat)centerY {
+- (void)setIsw_centerY:(CGFloat)centerY {
     self.center = CGPointMake(self.center.x, centerY);
 }
 

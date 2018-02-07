@@ -13,15 +13,15 @@
 - (void)isw_outlineStyle:(CGFloat)borderWidth borderColor:(UIColor*)color;
 - (void)isw_roundCorner:(CGFloat)radius borderWidth:(CGFloat)width borderColor:(UIColor*)color;
 
-@property (nonatomic, assign) CGFloat x;
-@property (nonatomic, assign) CGFloat y;
-@property (nonatomic, assign) CGFloat width;
-@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) CGFloat isw_x;
+@property (nonatomic, assign) CGFloat isw_y;
+@property (nonatomic, assign) CGFloat isw_width;
+@property (nonatomic, assign) CGFloat isw_height;
 
-@property (nonatomic) CGFloat top;         ///< Shortcut for frame.origin.y
-@property (nonatomic) CGFloat left;        ///< Shortcut for frame.origin.x.
-@property (nonatomic) CGFloat right;       ///< Shortcut for frame.origin.x + frame.size.width
-@property (nonatomic) CGFloat bottom;      ///< Shortcut for frame.origin.y + frame.size.height
-@property (nonatomic) CGFloat centerX;     ///< Shortcut for center.x
-@property (nonatomic) CGFloat centerY;     ///< Shortcut for center.y
+@property (nonatomic) CGFloat isw_top;         ///< Shortcut for frame.origin.y
+@property (nonatomic) CGFloat isw_left;        ///< Shortcut for frame.origin.x.
+@property (nonatomic) CGFloat isw_right;       ///< Shortcut for frame.origin.x + frame.size.width
+@property (nonatomic) CGFloat isw_bottom;      ///< Shortcut for frame.origin.y + frame.size.height
+@property (nonatomic) CGFloat isw_centerX;     ///< Shortcut for center.x
+@property (nonatomic) CGFloat isw_centerY;     ///< Shortcut for center.y
 @end
